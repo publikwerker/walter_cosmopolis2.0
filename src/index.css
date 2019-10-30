@@ -51,8 +51,7 @@
   position: relative;
   background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.799), rgba(129, 156, 243, 0.799)), url(../src/images/Wonder_Walter_4.jpg);
   background-size: cover;
-  background-position: top;
-  z-index: -3; }
+  background-position: top; }
 
 body {
   box-sizing: border-box;
@@ -133,11 +132,11 @@ html {
 
 .performance__title {
   margin: 7rem auto 0rem;
-  padding: 5rem 2rem 2rem; }
+  padding: 5rem 2rem 0rem; }
 
 .about__title {
   margin: 7rem auto 0rem;
-  padding: 5rem 2rem 2rem; }
+  padding: 5rem 2rem 0rem; }
 
 @media only screen and (min-width: 900px) {
   html {
@@ -405,8 +404,7 @@ html {
   padding-top: 8rem;
   padding-bottom: 20rem;
   background-color: #819cf3;
-  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.799), rgba(129, 156, 243, 0.799)), url(../src/images/Wonder_Walter_4.jpg);
-  z-index: -2; }
+  background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.799), rgba(129, 156, 243, 0.799)), url(../src/images/Wonder_Walter_4.jpg); }
   .section-performance__title {
     margin-top: 8rem; }
 
@@ -416,8 +414,7 @@ html {
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: -1;
-  opacity: .3;
+  opacity: .2;
   overflow: hidden; }
   .bg-video__content {
     height: 100%;
@@ -431,11 +428,12 @@ html {
   box-shadow: 0 3rem 6rem rgba(54, 54, 54, 0.1);
   border-radius: 3px;
   font-size: 1.6rem;
-  display: inline-block; }
+  display: inline-block;
+  z-index: 1; }
   .talent__image {
     width: 100%; }
   .talent__link {
-    z-index: 1; }
+    text-decoration: none; }
   .talent__caption {
     color: #fff;
     text-transform: uppercase;
@@ -443,6 +441,12 @@ html {
     text-align: center;
     transition: all .5s;
     backface-visibility: hidden; }
+
+.talent:hover {
+  border-radius: .2rem;
+  box-shadow: 0 0.3rem 0.5rem 0 rgba(54, 54, 54, 0.24), 0 0.5rem 2rem 0 rgba(54, 54, 54, 0.19);
+  -moz-box-shadow: 0 0.3rem 0.5rem 0 rgba(54, 54, 54, 0.24), 0 0.5rem 2rem 0 rgba(54, 54, 54, 0.19);
+  -webkit-box-shadow: 0 0.3rem 0.5rem 0 rgba(54, 54, 54, 0.24), 0 0.5rem 2rem 0 rgba(54, 54, 54, 0.19); }
 
 @media only screen and (min-width: 490px) {
   .talent {

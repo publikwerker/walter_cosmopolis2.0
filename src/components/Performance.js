@@ -9,9 +9,8 @@ const talentLink1 = "https://www.youtube.com/playlist?list=PLtxzOWaznJ8dZpvahAM7
 const talentLink2 = "https://www.youtube.com/playlist?list=PLtxzOWaznJ8fi0ay4RCgsx9FcLWEQp2jn";
 const talentLink3 ="https://www.youtube.com/playlist?list=PLtxzOWaznJ8cmbfwVaTtzmYSvSI7Yvl2s";
 
-export default class Performance extends React.Component {
+export default function Performance () {
 
-  render () {
     return (
       <section className="section-performance">
         <div className="bg-video">
@@ -24,46 +23,47 @@ export default class Performance extends React.Component {
           </video>
         </div>  
         <h2 className=" heading-secondary performance__title">Famous on the YouTubes!</h2>
-        <div className="row">
-          <a className="talent__link" href={talentLink1}>
-          <div className="talent">
-            <figure 
-            className="talent__shape">
-
-              <img src={tenSeconds}
-              className="talent__image"
-              alt="Walter wearing ear protection and holding an orange dead-blow hammer."></img>
-              <figcaption className="talent__caption">Ten Seconds of My Life</figcaption>
-            </figure>
-          </div>
-            </a>
+        <h3>Walter has many channels with various themes.</h3>
+        <nav className="row">
 
           <div className="talent">
-            <figure 
-            className="talent__shape">
-            <a href={talentLink2} target="_blank" rel="noopener noreferrer">
+            <a className="talent__link" href={talentLink1}>
+              <figure 
+              className="talent__shape">
 
-              <img src={motivational}
-              className="talent__image"
-              alt="Walter sporting a thick mustache, passionately speaking before a majestic cedar."></img>
-            </a>
-              <figcaption className="talent__caption">Motivational Encouragement</figcaption>
-            </figure>
-          </div>
-
-          <div className="talent">
-            <figure 
-            className="talent__shape">
-              <a href={talentLink3} target="_blank" rel="noopener noreferrer">
-
-                <img src={unboxing}
+                <img src={tenSeconds}
                 className="talent__image"
-                alt="Walter in midair, inverted, seemingly floating over the grass beneath a large, orange ball."></img>
-              </a>
-              <figcaption className="talent__caption">Unboxing with Walter</figcaption>
-            </figure>
+                alt="Walter wearing ear protection and holding an orange dead-blow hammer."></img>
+                <figcaption className="talent__caption">Ten Seconds of My Life</figcaption>
+              </figure> 
+            </a>
           </div>
-        </div>
+
+          <div className="talent">
+            <a className="talent__link" href={talentLink2} target="_blank" rel="noopener noreferrer">
+              <figure 
+              className="talent__shape">
+
+                <img src={motivational}
+                className="talent__image"
+                alt="Walter sporting a thick mustache, passionately speaking before a majestic cedar."></img>
+                <figcaption className="talent__caption">Motivational Speeches</figcaption>
+              </figure>
+            </a>
+          </div>
+
+          <div className="talent">
+            <a className="talent__link" href={talentLink3} target="_blank" rel="noopener noreferrer">
+              <figure 
+              className="talent__shape">
+
+                  <img src={unboxing}
+                  className="talent__image"
+                  alt="Walter in midair, inverted, seemingly floating over the grass beneath a large, orange ball."></img>
+                <figcaption className="talent__caption">Unboxing with Walter</figcaption>
+              </figure>
+            </a>
+          </div>
+        </nav>
       </section>)
   }
-}
