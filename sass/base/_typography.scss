@@ -71,6 +71,7 @@ html {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
+  line-height: 4rem;
   display: inline-block;
   background-image: linear-gradient(to right, $color-blue-light, $color-blue-dark);
   background-clip: text;
@@ -103,6 +104,10 @@ html {
 .about__title {
   margin: 7rem auto 0rem;
   padding: 5rem 2rem 0rem;
+}
+
+.title-box {
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 900px){

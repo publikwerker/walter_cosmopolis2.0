@@ -113,6 +113,7 @@ html {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
+  line-height: 4rem;
   display: inline-block;
   background-image: linear-gradient(to right, #819cf3, #1542d5);
   background-clip: text;
@@ -137,6 +138,9 @@ html {
 .about__title {
   margin: 7rem auto 0rem;
   padding: 5rem 2rem 0rem; }
+
+.title-box {
+  overflow: hidden; }
 
 @media only screen and (min-width: 900px) {
   html {
@@ -428,8 +432,7 @@ html {
   box-shadow: 0 3rem 6rem rgba(54, 54, 54, 0.1);
   border-radius: 3px;
   font-size: 1.6rem;
-  display: inline-block;
-  z-index: 1; }
+  display: inline-block; }
   .talent__image {
     width: 100%; }
   .talent__link {
@@ -460,7 +463,8 @@ html {
 .row {
   max-width: 114rem;
   margin: 0 auto;
-  background-color: transparent; }
+  background-color: transparent;
+  overflow: hidden; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
   .row::after {

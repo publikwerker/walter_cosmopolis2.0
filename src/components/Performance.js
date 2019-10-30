@@ -22,8 +22,10 @@ export default function Performance () {
             Your Browser is not Supported!
           </video>
         </div>  
-        <h2 className=" heading-secondary performance__title">Famous on the YouTubes!</h2>
-        <h3>Walter has many channels with various themes.</h3>
+        <div className="title-box">
+          <h2 className=" heading-secondary performance__title">Famous on the YouTubes!</h2>
+          <h3>Walter has many channels with various themes.</h3>
+        </div>
         <nav className="row">
 
           <div className="talent">

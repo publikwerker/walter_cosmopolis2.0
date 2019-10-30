@@ -2,6 +2,7 @@
   max-width: $grid-width;
   margin: 0 auto;
   background-color: transparent;
+  overflow: hidden;
 
   &:not(:last-child) {
     margin-bottom: $gutter-vertical;
