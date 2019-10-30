@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.app{ 
+  width: 90vw;
+  background-attachment: fixed;
+  position: relative;
+  background-image: linear-gradient(to right bottom, rgba($color-white, 0.799), rgba($color-blue-light, 0.799)), url(../src/images/Wonder_Walter_4.jpg);
+  background-size: cover;
+  background-position: top;
+  z-index: -3;
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 25vh;
+}
+
+html {
+  padding: 1rem;
+}
