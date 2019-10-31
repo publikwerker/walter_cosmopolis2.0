@@ -202,19 +202,6 @@ html {
     color: transparent;
     letter-spacing: .2rem; }
 
-.email-form__container {
-  background-color: #819cf3;
-  width: 25rem;
-  text-align: center;
-  margin: 0 auto; }
-
-.email-form__input {
-  border-radius: 3px;
-  padding: .5rem;
-  border: none;
-  display: block;
-  margin: 1rem auto 0; }
-
 @media only screen and (min-width: 490px) {
   .section-about {
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
@@ -354,11 +341,26 @@ html {
   height: 100%;
   width: 100%;
   opacity: .2;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 0; }
   .bg-video__content {
     height: 100%;
     width: 100%;
     object-fit: cover; }
+
+.email-form {
+  z-index: 1; }
+  .email-form__container {
+    background-color: #819cf3;
+    width: 25rem;
+    text-align: center;
+    margin: 0 auto; }
+  .email-form__input {
+    border-radius: 3px;
+    padding: .5rem;
+    border: none;
+    display: block;
+    margin: 1rem auto 0; }
 
 @media only screen and (min-width: 490px) {
   .footer {
