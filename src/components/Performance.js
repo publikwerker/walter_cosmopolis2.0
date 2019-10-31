@@ -1,5 +1,4 @@
 import React from 'react';
-import bgVideomp4 from  "../images/walter-talent-show.mp4";
 // import bgVideowebm from  "../images/walter-talent-show.mp4";
 import tenSeconds from "../images/wc_ten_seconds.png";
 import motivational from "../images/wc_motivational_title.png";
@@ -13,15 +12,6 @@ export default function Performance () {
 
     return (
       <section className="section-performance">
-        <div className="bg-video">
-          <video className="bg-video__content" autoPlay muted loop>
-            <source src={bgVideomp4} type="video/mp4">
-            </source>
-            {/* <source src={bgVideowebm} type="video/webm">
-            </source> */}
-            Your Browser is not Supported!
-          </video>
-        </div>  
         <div className="title-box">
           <h2 className=" heading-secondary performance__title">Famous on the YouTubes!</h2>
           <h3>Walter has many channels with various themes.</h3>

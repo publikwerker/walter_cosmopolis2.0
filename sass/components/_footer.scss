@@ -2,7 +2,7 @@
   text-align: center;
   justify-content: center;
   min-height: 90vh;
-  background-image: linear-gradient(to right bottom, rgba($color-white, 0.799), rgba($color-blue-light, 0.799)), url(../src/images/Nightlife-1.jpg);
+  background-image: linear-gradient(to right bottom, $color-white, $color-blue-light);
   background-size: cover;
   background-position: top;
   position: relative;
@@ -10,6 +10,22 @@
 
   clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%); 
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .2;
+  overflow: hidden;
+
+  &__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
 }
 
 @media only screen and (min-width: 490px){

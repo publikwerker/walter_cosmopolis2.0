@@ -4,38 +4,20 @@
   margin-top: -19rem;
   padding-top: 8rem;
   padding-bottom: 20rem;
-  background-color: $color-blue-light;
-  background-image: linear-gradient(to right bottom, rgba($color-white, 0.799), rgba($color-blue-light, 0.799)), url(../src/images/Wonder_Walter_4.jpg);
 
   &__title {
     margin-top: 8rem;
   }
 }
 
-.bg-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  opacity: .2;
-  overflow: hidden;
-
-  &__content {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-}
-
 .talent {
   width: 90%;
   min-width: 200px;
-  margin: 0 auto;
-  box-shadow: 0 3rem 6rem rgba($color-black, .1);
+  margin: 2rem auto;
   border-radius: 3px;
   font-size: $default-font-size;
   display: inline-block;
+  z-index: 1;
 
   &__image {
   width: 100%;
