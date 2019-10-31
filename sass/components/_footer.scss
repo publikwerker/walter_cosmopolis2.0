@@ -1,15 +1,13 @@
 .footer {  
   text-align: center;
   justify-content: center;
-  min-height: 90vh;
+  padding: 20rem 0;
   background-image: linear-gradient(to right bottom, $color-white, $color-blue-light);
   background-size: cover;
   background-position: top;
   position: relative;
   margin-top:-19rem;
-
-  clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
-  -webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%); 
+  z-index: 0;
 }
 
 .bg-video {
@@ -20,7 +18,7 @@
   width: 100%;
   opacity: .2;
   overflow: hidden;
-  z-index: 0;
+  z-index: -1;
 
   &__content {
     height: 100%;
@@ -30,13 +28,13 @@
 }
 
 .email-form {
-  z-index: 1;
   
   &__container {
     background-color: $color-blue-light;
     width: 25rem;
     text-align: center;
     margin: 0 auto;
+    z-index: 1;
   }
 
   &__input {
@@ -45,29 +43,5 @@
     border: none;
     display:block;
     margin: 1rem auto 0;
-  }
-}
-
-@media only screen and (min-width: 490px){
-  .footer {
-
-  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
-  -webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
-  }
-}
-
-@media only screen and (min-width: 686px){
-  .footer {
-
-  clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
-  -webkit-clip-path: polygon(0 11%, 100% 0, 100% 100%, 0 100%);
-  }
-}
-
-@media only screen and (min-width: 752px){
-  .footer {
-
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-  -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
   }
 }

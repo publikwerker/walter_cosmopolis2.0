@@ -1,5 +1,6 @@
 import React from 'react';
 import bgVideomp4 from  "../images/walter-talent-show.mp4";
+import bgVideowebm from "../images/walter-talent-show.webm";
 
 export default function Footer() {
   return (
@@ -8,8 +9,8 @@ export default function Footer() {
         <video className="bg-video__content" autoPlay muted loop>
           <source src={bgVideomp4} type="video/mp4">
           </source>
-          {/* <source src={bgVideowebm} type="video/webm">
-          </source> */}
+          <source src={bgVideowebm} type="video/webm">
+          </source>
           Your Browser is not Supported!
         </video>
       </div>  
