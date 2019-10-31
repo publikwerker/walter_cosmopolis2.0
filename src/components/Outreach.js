@@ -10,7 +10,7 @@ export default function Outreach() {
 
       <div className="row">
 
-        <div className="col-1-of-3">
+        <div className="card-box">
           <div className="card">
             <div className="card__side card__side--front">
               <div className="card__picture card__picture--1">
@@ -30,7 +30,7 @@ export default function Outreach() {
           </div>
         </div>
 
-        <div className="col-1-of-3">
+        <div className="card-box">
           <div className="card">
             <div className="card__side card__side--front">
               <div className="card__picture card__picture--2">
@@ -67,7 +67,7 @@ export default function Outreach() {
             </div>
           </div>
 
-        <div className="col-1-of-3">
+        <div className="card-box">
 
           <div className="card">
             <div className="card__side card__side--front">

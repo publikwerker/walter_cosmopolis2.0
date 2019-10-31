@@ -231,7 +231,9 @@ html {
     -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%); } }
 
 .card {
-  min-width: 30rem;
+  min-width: 20rem;
+  min-height: 20rem;
+  padding: 2rem;
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
@@ -324,6 +326,18 @@ html {
   .card__price-value {
     font-size: 6rem;
     font-weight: 100; }
+
+.card-box {
+  padding: 2rem;
+  display: inline-block;
+  width: 25rem;
+  height: 25rem;
+  margin: 2rem auto 0; }
+
+@media only screen and (min-width: 62rem) {
+  .card-box {
+    width: 30rem;
+    height: 30rem; } }
 
 .footer {
   text-align: center;
@@ -472,7 +486,8 @@ html {
     display: table;
     clear: both; }
   .row [class^="col-"] {
-    float: left; }
+    float: left;
+    min-width: 30rem; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
   .row .col-1-of-2 {
