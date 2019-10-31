@@ -1,16 +1,15 @@
 .card {
-  min-width: 20rem;
-  min-height: 20rem;
+  min-width: 25rem;
+  min-height: 25rem;
   padding: 2rem;
 
   //Functionality
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 30rem;
 
   &__side {
-    height: 30rem;
+    height: 25rem;
     transition: all .8s ease;
     position: absolute;
     top: 0;
@@ -53,7 +52,7 @@
   // Front side styling
   &__picture {
     background-size: cover;
-    height: 28rem;
+    height: 23rem;
     background-blend-mode: overlay;  
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -160,14 +159,11 @@
 .card-box {
   padding: 2rem;
   display: inline-block;
-  width: 25rem;
-  height: 25rem;
-  margin: 2rem auto 0;
+  margin: 2rem auto 2rem;
 }
 
-@media only screen and(min-width: 62rem){
+@media only screen and(min-width: 790px){
   .card-box {
-    width: 30rem;
-    height: 30rem;
+    width: 35rem;
   }
 }
