@@ -1,9 +1,7 @@
 .section-about {
-  align-items: center;
+  margin-top: -30rem;
   justify-content: center;
-  background-color: $color-white;padding: 15rem 0 15rem;
-  margin-top: -12rem;
-  min-height: 90vh;
+  background-color: $color-white;
 
   clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
   -webkit-clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);

@@ -4,7 +4,7 @@ export default function Outreach() {
   return (
     <section className="section-outreach">
       <div className="title-box">
-        <h2 className=" heading-secondary about__title">Walter Cosmopolis is world-famous for good reason!</h2>
+        <h2 className=" heading-secondary outreach__title">Walter Cosmopolis is world-famous for good reason!</h2>
         <h3 className="heading-tertiary">He has lived the life few have dreamed.</h3>
       </div>
 
