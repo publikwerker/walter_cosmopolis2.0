@@ -47,6 +47,7 @@
 
 .app {
   width: 90vw;
+  margin: 0 auto;
   background-attachment: fixed;
   position: relative;
   background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.799), rgba(129, 156, 243, 0.799)), url(../src/images/Wonder_Walter_4.jpg);
@@ -426,12 +427,9 @@ label {
     -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%); } }
 
 .section-performance {
-  padding: 5rem 0 20rem;
-  min-height: 90vh;
-  position: relative;
-  margin-top: -12rem; }
+  position: relative; }
   .section-performance__title {
-    margin-top: 8rem; }
+    margin-top: 2rem; }
 
 .talent {
   width: 90%;

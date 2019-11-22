@@ -8,6 +8,7 @@
 
 .app{ 
   width: 90vw;
+  margin: 0 auto;
   background-attachment: fixed;
   position: relative;
   background-image: linear-gradient(to right bottom, rgba($color-white, 0.799), rgba($color-blue-light, 0.799)), url(../src/images/Wonder_Walter_4.jpg);
