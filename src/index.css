@@ -200,7 +200,6 @@ label {
     animation: moveInLeft 3s ease-out; } }
 
 .section-about {
-  padding-top: 10rem;
   padding-bottom: 20rem;
   background-color: #fff;
   clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
@@ -338,8 +337,8 @@ label {
 
 .footer {
   text-align: center;
-  justify-content: center;
-  padding: 20rem 0;
+  height: 80vh;
+  border-radius: 3px;
   background-image: linear-gradient(to right bottom, #fff, #819cf3);
   background-size: cover;
   background-position: top;
@@ -378,8 +377,7 @@ label {
   margin: 1rem auto 0; }
 
 .header {
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   height: 80vh;
   border-radius: 3px;
   background-color: transparent;
@@ -402,7 +400,7 @@ label {
     text-align: center; }
 
 .section-outreach {
-  padding: 5rem 0 12rem;
+  padding-bottom: 8rem;
   margin-top: -12rem;
   background-color: #fff;
   min-height: 90vh;
