@@ -200,7 +200,7 @@ label {
     animation: moveInLeft 3s ease-out; } }
 
 .section-about {
-  padding-bottom: 20rem;
+  padding-top: 8rem;
   background-color: #fff;
   clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
   -webkit-clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%); }
@@ -214,6 +214,9 @@ label {
     -webkit-background-clip: text;
     color: transparent;
     letter-spacing: .2rem; }
+
+.with-form {
+  padding-bottom: 20rem; }
 
 @media only screen and (min-width: 490px) {
   .section-about {
@@ -400,10 +403,9 @@ label {
     text-align: center; }
 
 .section-outreach {
+  padding-top: 8rem;
   padding-bottom: 8rem;
-  margin-top: -12rem;
   background-color: #fff;
-  min-height: 90vh;
   clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
   -webkit-clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%); }
 
@@ -424,10 +426,8 @@ label {
     clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
     -webkit-clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%); } }
 
-.section-performance {
-  position: relative; }
-  .section-performance__title {
-    margin-top: 2rem; }
+.section-performance__title {
+  margin-top: 2rem; }
 
 .talent {
   width: 90%;

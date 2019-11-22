@@ -1,5 +1,5 @@
 .section-about {
-  padding-bottom: 20rem;
+  padding-top: 8rem;
   background-color: $color-white;
 
   clip-path: polygon(0 8%, 100% 0, 100% 92%, 0 100%);
@@ -16,6 +16,9 @@
     color: transparent;
     letter-spacing: .2rem;
   }
+}
+.with-form {
+  padding-bottom: 20rem;
 }
 
 @media only screen and (min-width: 490px){
