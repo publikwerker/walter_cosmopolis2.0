@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './components/About';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Outreach from './components/Outreach';
@@ -11,6 +12,7 @@ function App() {
       <main>
         <Outreach />
         <Performance />
+        <About />
       </main>
       <Footer />
     </div>

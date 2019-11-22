@@ -4,8 +4,8 @@ export default function Outreach() {
   return (
     <section className="section-outreach">
       <div className="title-box">
-        <h2 className=" heading-secondary outreach__title">Walter Cosmopolis is world-famous for good reason!</h2>
-        <h3 className="heading-tertiary">He has lived the life few have dreamed.</h3>
+        <h2 className=" heading-secondary outreach__title">Walter Cosmopolis Speaks from Experience!</h2>
+        <h3 className="heading-tertiary">Progress, not Perfection.</h3>
       </div>
 
       <div className="row">
@@ -17,13 +17,13 @@ export default function Outreach() {
                 &nbsp;
               </div>
               <h4 className="card__heading">
-                <span className="card__heading-span card__heading-span--1">Walter Fights for Truth!</span>
+                <span className="card__heading-span card__heading-span--1">Walter Has Fought Demons!</span>
               </h4>
             </div>
 
             <div className="card__side card__side--back  card__side--back-1">
               <div className="card__desc">
-              <p className="paragraph">In his youth, Walter saw injustice in the world. Realizing that he was the one he was waiting for, young Walter put on his boots and went on a Mission.</p>
+              <p className="paragraph">Addiction comes in many forms. Walter has faced these demons, figuratively and literally. "The key is to have faith in yourself."</p>
                 <a href="#" className="btn btn--white">Learn more!</a>
               </div>
             </div>

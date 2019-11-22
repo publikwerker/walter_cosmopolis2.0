@@ -98,8 +98,15 @@ html {
   }
 }
 
+label {
+  display: block;
+  justify-self: center;
+}
+
 .paragraph {
   font-size: $default-font-size;
+  max-width: 100rem;
+  margin: 0 auto;
 
   &:not(last-child) {
     margin-bottom: 3rem;
