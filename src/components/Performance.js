@@ -39,7 +39,7 @@ export default function Performance () {
                 <img src={motivational}
                 className="talent__image"
                 alt="Walter sporting a thick mustache, passionately speaking before a majestic cedar."></img>
-                <figcaption className="talent__caption">Motivational Speeches</figcaption>
+                <figcaption className="talent__caption">Motivational Inspiration</figcaption>
               </figure>
             </a>
           </div>
