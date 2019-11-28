@@ -156,6 +156,9 @@ label {
   margin: 5rem auto 0rem;
   padding: 5rem 2rem 0rem; }
 
+.about__copy {
+  padding: 2rem; }
+
 .title-box {
   overflow: hidden; }
 
