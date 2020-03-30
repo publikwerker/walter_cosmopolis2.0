@@ -25,7 +25,7 @@ export default function Footer() {
       </p>
   </form> */}
 
-     <div className="email-form__container">
+   {/*  <div className="email-form__container">
       <h3 className="heading-tertiary">Walter can help you, too!</h3>
         <form className="email-form">
           <label className="formEmail input-label" htmlFor="email">
@@ -39,7 +39,7 @@ export default function Footer() {
             Message</label>
           <input className="submit-button email-form__input" type="submit" value="Submit" />
         </form>
-      </div>
+      </div> */}
     
       <p className="footer--text">All content Copyright &copy; 2020 <a className="footer--text-link" href="https://www.publikwerks.com" target="_blank" rel="noopener noreferrer">Publikwerks, LLC.</a> <br />Wonder Walter images courtesy of <a className="footer--text-link" href="https://www.chelseapetrakis.com" target="_blank" rel="noopener noreferrer">Chelsea Petrakis</a>.</p>
     </footer>

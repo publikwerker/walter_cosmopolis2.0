@@ -1,8 +1,8 @@
 @import 'abstracts/mixins';
 @import 'abstracts/_variables.scss';
-@import 'base/_animations.scss';
-@import 'base/_base.scss';
-@import 'base/typography.scss';
+@import 'abstracts/base/_animations.scss';
+@import 'abstracts/base/_base.scss';
+@import 'abstracts/base/typography.scss';
 @import 'components/about';
 @import 'components/cards';
 @import 'components/footer';
