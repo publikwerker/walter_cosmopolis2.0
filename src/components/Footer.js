@@ -15,16 +15,7 @@ export default function Footer() {
         </video>
       </div>  
 
-      {/* <section className="section-about">
-        <div className="title-box">
-          <h2 className=" heading-secondary about__title">Proven Crowd Pleaser</h2>
-            <h3 className="heading-tertiary">Walter Cosmopolis is a world-class entertainer.</h3>
-        </div>
-        <div className="row">
-          <p className="paragraph">Walter offers more than paltry banter and potty humor. Walter is comedian and minstrel, educator and mystic. With insightful eloquence, Walter speaks personally on topics ranging from Race to Religion, from Gender to Sex, and from Gentrification to Homelessness. Walter's performance transcends modern comedy's vaudevillian origins, breaking the viewer/spectacle barrier, evoking in the audience a crisis of identity and introspection.</p>
-        </div>
-
-    <form action="mailto:hello@waltercosmopolis.com" method="get" enctype="text/plain">
+{/*    <form action="mailto:hello@waltercosmopolis.com" method="get" enctype="text/plain">
       <p>Name: <input type="text" name="name"/></p>
       <p>Email: <input type="text" name="email"/></p>
       <p>Comments:</p>
@@ -32,24 +23,23 @@ export default function Footer() {
       <p><input type="submit" name="submit" value="Send" />
         <input type="reset" name="reset" value="Clear Form" />
       </p>
-    </form>
-      </section> */}
+  </form> */}
 
-     ` {/* <div className="email-form__container">
+     <div className="email-form__container">
       <h3 className="heading-tertiary">Walter can help you, too!</h3>
         <form className="email-form">
-          <label className="formEmail input-label" for="email">
-            <input className="email-form__input" name="email" type="email" required="true" />
+          <label className="formEmail input-label" htmlFor="email">
+            <input className="email-form__input" name="email" type="email" required={true} />
             email</label>
-          <label className="formName input-label" for="formName">
+          <label className="formName input-label" htmlFor="formName">
             <input className="email-form__input" name="formName" type="text" />
             name</label> 
-          <label className="input-label" for="message">
+          <label className="input-label" htmlFor="message">
             <textarea className="formMessage email-form__input" name="message" />
             Message</label>
-          <input classname="submit-button email-form__input" type="submit" value="Submit" />
+          <input className="submit-button email-form__input" type="submit" value="Submit" />
         </form>
-      </div>` */}
+      </div>
     
       <p className="footer--text">All content Copyright &copy; 2020 <a className="footer--text-link" href="https://www.publikwerks.com" target="_blank" rel="noopener noreferrer">Publikwerks, LLC.</a> <br />Wonder Walter images courtesy of <a className="footer--text-link" href="https://www.chelseapetrakis.com" target="_blank" rel="noopener noreferrer">Chelsea Petrakis</a>.</p>
     </footer>
