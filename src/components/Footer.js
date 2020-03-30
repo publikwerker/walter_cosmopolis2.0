@@ -51,7 +51,7 @@ export default function Footer() {
         </form>
       </div>` */}
     
-      <p className="footer--text">All content Copyright &copy; 2019 <a className="footer--text-link" href="https://www.publikwerks.com" target="_blank" rel="noopener noreferrer">Publikwerks, LLC.</a> <br />Wonder Walter images courtesy of <a className="footer--text-link" href="https://www.chelseapetrakis.com" target="_blank" rel="noopener noreferrer">Chelsea Petrakis</a>.</p>
+      <p className="footer--text">All content Copyright &copy; 2020 <a className="footer--text-link" href="https://www.publikwerks.com" target="_blank" rel="noopener noreferrer">Publikwerks, LLC.</a> <br />Wonder Walter images courtesy of <a className="footer--text-link" href="https://www.chelseapetrakis.com" target="_blank" rel="noopener noreferrer">Chelsea Petrakis</a>.</p>
     </footer>
   )
 }
